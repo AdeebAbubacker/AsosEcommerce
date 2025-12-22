@@ -1,0 +1,6 @@
+@AsosEcommerceApi_HostAddress = http://localhost:5178
+
+GET {{AsosEcommerceApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
