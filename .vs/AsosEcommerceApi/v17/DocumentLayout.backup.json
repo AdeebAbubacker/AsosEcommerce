@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\dto\\createproductvariationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\dto\\createproductvariationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\dto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\dto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\dto\\createproductitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\dto\\createproductitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\dto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\dto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\dto\\addaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\dto\\addaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\asosecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -15,36 +83,8 @@
       "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\db\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\db\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\asosecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|c:\\users\\91884\\desktop\\asosecommerceapi\\asosecommerceapi\\asosecommerceapi\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894FB7F7-2226-4253-B3B5-AE63C5DEF2DD}|AsosEcommerceApi\\AsosEcommerceApi.csproj|solutionrelative:asosecommerceapi\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,146 +94,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\appsettings.Development.json*",
-              "RelativeToolTip": "AsosEcommerceApi\\appsettings.Development.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-22T11:51:36.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\OrdersController.cs*",
-              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\OrdersController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:49:48.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\CartController.cs*",
-              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\CartController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:49:19.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\AuthController.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:36:10.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\appsettings.json",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\appsettings.json*",
-              "RelativeToolTip": "AsosEcommerceApi\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-22T11:43:36.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Program.cs",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\Program.cs",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Program.cs*",
-              "RelativeToolTip": "AsosEcommerceApi\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:33:31.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\ProductsController.cs*",
-              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\ProductsController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:48:46.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:43:22.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppData.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Db\\AppData.cs",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\Db\\AppData.cs",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Db\\AppData.cs*",
-              "RelativeToolTip": "AsosEcommerceApi\\Db\\AppData.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:40:46.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AsosEcommerceApi",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi.csproj",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\AsosEcommerceApi.csproj",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi.csproj*",
-              "RelativeToolTip": "AsosEcommerceApi\\AsosEcommerceApi.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-22T11:33:42.89Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -203,21 +105,271 @@
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:50:27.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\DTO\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\CreateProductDto.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\DTO\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:21:06.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateProductVariationDto.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\CreateProductVariationDto.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\DTO\\CreateProductVariationDto.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\CreateProductVariationDto.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\DTO\\CreateProductVariationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:21:35.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Models\\Models.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Models\\Models.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Models\\Models.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwEcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:34:08.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:51:24.345Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Program.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Program.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Program.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Program.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:33:31.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:44:26.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:49:21.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAcAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:00:54.735Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Models.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Models\\Models.cs",
-              "RelativeDocumentMoniker": "AsosEcommerceApi\\Models\\Models.cs",
-              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Models\\Models.cs*",
-              "RelativeToolTip": "AsosEcommerceApi\\Models\\Models.cs*",
-              "ViewState": "AgIAAEQAAAAAAAAAAAA9wFQAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswEgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:34:08.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T11:36:10.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:43:22.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Controllers\\AddressController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Controllers\\AddressController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:01:46.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\DTO\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\RegisterDto.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\DTO\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:13:14.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\DTO\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\DTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:13:15.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateProductItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\CreateProductItemDto.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\DTO\\CreateProductItemDto.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\CreateProductItemDto.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\DTO\\CreateProductItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:21:17.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\DTO\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\CreateCategoryDto.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\DTO\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:20:48.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddAddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\AddAddressDto.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\DTO\\AddAddressDto.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\DTO\\AddAddressDto.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\DTO\\AddAddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:00:28.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AsosEcommerceApi.csproj",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi.csproj",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\AsosEcommerceApi.csproj",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi.csproj",
+              "RelativeToolTip": "AsosEcommerceApi\\AsosEcommerceApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-22T11:33:42.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\appsettings.Development.json",
+              "RelativeToolTip": "AsosEcommerceApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-22T11:51:36.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\appsettings.json",
+              "RelativeToolTip": "AsosEcommerceApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-22T11:43:36.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppData.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Db\\AppData.cs",
+              "RelativeDocumentMoniker": "AsosEcommerceApi\\Db\\AppData.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\AsosEcommerceApi\\AsosEcommerceApi\\AsosEcommerceApi\\Db\\AppData.cs",
+              "RelativeToolTip": "AsosEcommerceApi\\Db\\AppData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:40:46.194Z"
             }
           ]
         }

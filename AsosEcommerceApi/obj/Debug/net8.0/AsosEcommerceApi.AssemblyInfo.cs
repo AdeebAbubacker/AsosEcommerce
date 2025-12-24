@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsosEcommerceApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4db10f3368e89e3d24db4ad31c5a7e269b3a3b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4266c5a97066f9cad6afc29faad84d0ced2ffb7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsosEcommerceApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsosEcommerceApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

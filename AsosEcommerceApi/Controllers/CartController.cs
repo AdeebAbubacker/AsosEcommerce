@@ -1,46 +1,69 @@
-﻿
-using AsosEcommerceApi.Db;
+﻿using AsosEcommerceApi.Data;
 using AsosEcommerceApi.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 namespace AsosEcommerceApi.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/cart")]
+    [Authorize]
     public class CartController : ControllerBase
     {
-        private readonly AppDbContext _context;
-        public CartController(AppDbContext context) => _context = context;
+        private readonly AppDbContext _db;
+
+        public CartController(AppDbContext db)
+        {
+            _db = db;
+        }
 
         [HttpPost("add")]
-        public async Task<IActionResult> AddToCart([FromBody] CartItem item)
+        public async Task<IActionResult> Add(Guid variationId, int qty)
         {
-            var exists = await _context.CartItems.FirstOrDefaultAsync(c =>
-                c.UserId == item.UserId && c.ProductVariationId == item.ProductVariationId);
-            if (exists != null) exists.Quantity += item.Quantity;
-            else await _context.CartItems.AddAsync(item);
+            var userId = Guid.Parse(User.FindFirst("userId")!.Value);
 
-            await _context.SaveChangesAsync();
-            return Ok(item);
-        }
+            // 1️⃣ Check if cart exists
+            var cart = await _db.Carts
+                .FirstOrDefaultAsync(c => c.UserId == userId);
 
-        [HttpGet("{userId}")]
-        public async Task<IActionResult> GetCart(Guid userId)
-        {
-            var cart = await _context.CartItems
-                .Where(c => c.UserId == userId).ToListAsync();
-            return Ok(cart);
-        }
+            if (cart == null)
+            {
+                cart = new Cart
+                {
+                    Id = Guid.NewGuid(),
+                    UserId = userId,
+                    CreatedAt = DateTime.UtcNow
+                };
 
-        [HttpDelete("{cartItemId}")]
-        public async Task<IActionResult> RemoveItem(Guid cartItemId)
-        {
-            var item = await _context.CartItems.FindAsync(cartItemId);
-            if (item == null) return NotFound();
-            _context.CartItems.Remove(item);
-            await _context.SaveChangesAsync();
-            return NoContent();
+                _db.Carts.Add(cart);
+                await _db.SaveChangesAsync();
+            }
+
+            // 2️⃣ Check if item already in cart
+            var existingItem = await _db.CartItems.FirstOrDefaultAsync(ci =>
+                ci.CartId == cart.Id &&
+                ci.ProductVariationId == variationId);
+
+            if (existingItem != null)
+            {
+                existingItem.Quantity += qty;
+            }
+            else
+            {
+                var cartItem = new CartItem
+                {
+                    Id = Guid.NewGuid(),
+                    CartId = cart.Id,
+                    ProductVariationId = variationId,
+                    Quantity = qty
+                };
+
+                _db.CartItems.Add(cartItem);
+            }
+
+            await _db.SaveChangesAsync();
+            return Ok("Item added to cart");
         }
     }
 }

@@ -1,49 +1,109 @@
-﻿using AsosEcommerceApi.Db;
-using AsosEcommerceApi.Models;
-using Microsoft.AspNetCore.Http;
+﻿using AsosEcommerceApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using AsosEcommerceApi.Data;
+using AsosEcommerceApi.DTO;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AsosEcommerceApi.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/auth")]
     public class AuthController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly AppDbContext _db;
         private readonly IConfiguration _config;
-        public AuthController(AppDbContext context, IConfiguration config) { _context = context; _config = config; }
 
-        [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] User user)
+        public AuthController(AppDbContext db, IConfiguration config)
         {
-            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
-            await _context.Users.AddAsync(user);
-            await _context.SaveChangesAsync();
-            return Ok(user);
+            _db = db;
+            _config = config;
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] User login)
+        // REGISTER
+        [HttpPost("register")]
+        public async Task<IActionResult> Register(RegisterDto dto)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == login.Email);
-            if (user == null || !BCrypt.Net.BCrypt.Verify(login.Password, user.Password))
+            if (await _db.Users.AnyAsync(x => x.Email == dto.Email))
+                return BadRequest("Email already exists");
+
+            var user = new User
+            {
+                Id = Guid.NewGuid(),
+                Name = dto.Name,
+                Email = dto.Email,
+                Password = BCrypt.Net.BCrypt.HashPassword(dto.Password),
+                RegisteredAt = DateTime.UtcNow
+            };
+
+            _db.Users.Add(user);
+            await _db.SaveChangesAsync();
+
+            return Ok("User registered successfully");
+        }
+
+        // LOGIN
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginDto dto)
+        {
+            var user = await _db.Users.FirstOrDefaultAsync(x => x.Email == dto.Email);
+
+            if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.Password))
                 return Unauthorized("Invalid credentials");
 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_config["Jwt:Key"]);
+            var key = Encoding.UTF8.GetBytes(_config["Jwt:Key"]);
+
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new Claim[] { new Claim("id", user.Id.ToString()) }),
+                Subject = new ClaimsIdentity(new[]
+                {
+                    new Claim("userId", user.Id.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email)
+                }),
                 Expires = DateTime.UtcNow.AddDays(7),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+                Issuer = _config["Jwt:Issuer"],
+                SigningCredentials = new SigningCredentials(
+                    new SymmetricSecurityKey(key),
+                    SecurityAlgorithms.HmacSha256Signature)
             };
+
             var token = tokenHandler.CreateToken(tokenDescriptor);
-            return Ok(new { token = tokenHandler.WriteToken(token) });
+
+            return Ok(new
+            {
+                token = tokenHandler.WriteToken(token),
+                user = new
+                {
+                    user.Id,
+                    user.Name,
+                    user.Email
+                }
+            });
+        }
+
+        // GET LOGGED IN USER
+        [HttpGet("me")]
+        [Authorize]
+        public async Task<IActionResult> Me()
+        {
+            var userId = User.FindFirst("userId")?.Value;
+            if (userId == null)
+                return Unauthorized();
+
+            var user = await _db.Users.FindAsync(Guid.Parse(userId));
+
+            return Ok(new
+            {
+                user.Id,
+                user.Name,
+                user.Email,
+                user.RegisteredAt
+            });
         }
     }
 }
